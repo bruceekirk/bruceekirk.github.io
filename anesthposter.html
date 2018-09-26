@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Cyclophilin D Knockout Protects the Mouse Kidney against Cyclosporine A-Induced Oxidative Stress and DNA Hypomethylation</title>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="drposter_files//drposter.css" />
+    <link rel="stylesheet" href="custom.css"/>
+</head>
+<body>
+<div class="slides ">
+
+<header>
+    <h1 class="title">Cyclophilin D Knockout Protects the Mouse Kidney against Cyclosporine A-Induced Oxidative Stress and DNA Hypomethylation</h1>
+    <h2 class="author"><span class="presenter">Bruce Kirkpatrick<sup>2</sup></span>, Jost Klawitter<sup>1</sup>, Alexander Pennington<sup>1</sup>, Joshua M. Thurman<sup>1</sup>, Uwe Christians<sup>1</sup>, Jelena Klawitter<sup>1</sup>
+<ol class="affiliations">
+University of Colorado Anschutz Medical Campus 
+<li>
+Department of Anesthesiology
+</li>
+<li>
+Medical Scientist Training Program
+</li>
+</ol></h2>
+</header>
+
+<!-- The name drposter came from a convoluted pun: it's a poster based on R, M.D. files (not a real doctor),
+and it also generates academic posters for PhD's and others. -->
+<div id="section" class="section level1 col-2" style="grid-row: span 4;">
+<h1></h1>
+<!-- Span the first column for four rows, that way we can capture the usage block, two rows of template examples, and refs/footer information -->
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<ul>
+<li>Template for writing HTML/CSS posters using Rmarkdown</li>
+<li>Same conventions as pandoc presentations (e.g. reveal.js)<span class="citation"><sup>1–3</sup></span></li>
+<li>Separates content from presentation</li>
+<li>Goal: automatically get consistent spacing from specifications instead of a manual layout</li>
+</ul>
+<p style="text-align:center;">
+<img src="drposter.png" style="width:60%;" />
+</p>
+</div>
+<div id="rmarkdown-structure" class="section level2">
+<h2>Rmarkdown structure</h2>
+<div class="fullwidth">
+See also the <a href="https://github.com/bbucior/drposter/tree/master/inst/example/poster.Rmd">source code</a> and <a href="https://github.com/bbucior/drposter/tree/master/inst/example/poster.pdf">compiled pdf</a> for this poster on Github.
+</div>
+<pre><code>---
+title: Title of your document within R Markdown&#39;s YAML header
+output: drposter::drposter_poster
+---
+
+# {.col-3}
+## Overall document columns (`&lt;h1&gt;`)
+
+Content is organized using headers as sections.  Level 1 sections
+define the overall layout of subblocks.  Use the `.col-x` class to
+use x columns for subblocks.
+
+## Another left column block
+
+You can place multiple subblocks within the same overall .col-x,
+for example to get a 3-column layout like this example code here.
+
+# {.col-3}
+## Individual content blocks (`&lt;h2&gt;`)
+
+Actual content goes within the level 2 blocks, which have two inner
+columns by default, e.g. for figures.
+
+![](path_to_figure.jpg)
+
+Most of the markdown commands seem to work, though there are
+probably still some that are untested.
+
+# {.col-3}
+## Use this div to automatically write your references to a section:
+
+&lt;div id=&quot;refs&quot; class=&quot;references&quot;&gt;&lt;/div&gt;
+</code></pre>
+</div>
+<div id="licensing" class="section level2">
+<h2>Licensing</h2>
+<div id="rd-party" class="section level3">
+<h3>3rd party</h3>
+<ul>
+<li>Package inspired by reveal.js presentation framework<span class="citation"><sup>1</sup></span> and its R package<span class="citation"><sup>2</sup></span></li>
+<li>Fonts under their respective licenses</li>
+<li>Logo: thanks to Openclipart for the CC0 <a href="https://openclipart.org/detail/244447/minimliast-graduation-hat">graduation cap image</a>, <a href="https://github.com/GuangchuangYu/hexSticker">hexSticker</a> for sticker generation, and <a href="https://github.com/lpantano/bcbioSmallRna/blob/master/inst/sticker/sticker.R">bcbioSmallRna</a> for a helpful sticker example</li>
+<li>See <a href="https://citationstyles.org/">CitationStyles.org</a> and the CSL project<span class="citation"><sup>4</sup></span> for more info about citation options (CC BY SA 3.0)</li>
+</ul>
+</div>
+<div id="this-package" class="section level3">
+<h3>This package</h3>
+<ul>
+<li>drposter may be used under different licenses at your option</li>
+<li>Entire R package: GPLv3 (like <a href="https://github.com/rstudio/rmarkdown">R markdown</a>)</li>
+<li>Files for the <a href="https://github.com/bbucior/drposter/tree/master/inst/rmarkdown/templates/drposter/skeleton/drposter_files">drposter pandoc template</a>: same conditions as the official <a href="https://github.com/jgm/pandoc/tree/master/data/templates">pandoc templates</a></li>
+<li>Poster CSS: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 public domain</a></li>
+</ul>
+</div>
+</div>
+<div id="community" class="section level2" style="--header-color:darkred; --other-color-for-h2-gradient:red;">
+<h2>Community</h2>
+<p class="qr">
+<img src="Resources/qr_code.png" alt="QR code" /> For more information, please visit the project page at <a href="https://github.com/bbucior/drposter" class="uri">https://github.com/bbucior/drposter</a>. Feel free to report issues, pull requests, or general comments on Github.
+</p>
+</div>
+</div>
+<div id="section-1" class="section level1 col-2">
+<h1></h1>
+<div id="how-to-use-this-package" class="section level2">
+<h2>How to use this package</h2>
+<div id="installation-and-updates" class="section level3 fullwidth">
+<h3>Installation and updates</h3>
+<ol style="list-style-type: decimal">
+<li><code>devtools::install_github(&quot;bbucior/drposter&quot;, dep=FALSE)</code> (or <code>install_local</code> on a downloaded copy) to install/update the package</li>
+<li>In RStudio, you can find the format listed as a template under the “New R Markdown” wizard, or use the command line.</li>
+<li>Template files are cached in <code>drposter_files/</code> to decouple your poster from the installed package version. Use <code>drposter_update</code> to resync them.</li>
+</ol>
+</div>
+<div id="customizing-the-template" class="section level3">
+<h3>Customizing the template</h3>
+<ul>
+<li>Avoid modifying <code>drposter_files/</code></li>
+<li>Indirectly override those rules in your own <code>custom.css</code> or equivalent</li>
+<li>Easier to see and share your changes</li>
+<li>Decouples your modifications from the base drposter styles</li>
+<li>Customize the format of the bibliography<span class="citation"><sup>5,6</sup></span> using a CSL style<span class="citation"><sup>4</sup></span></li>
+</ul>
+</div>
+<div id="export" class="section level3">
+<h3>Export</h3>
+<ul>
+<li>View and “print as PDF” from Chrome<span class="citation"><sup>7</sup></span> <!-- Note: the footnote used to be a bibtex "note," but the default ACS template doesn't include that field --></li>
+<li>Be sure to save a PDF (and possibly html with <code>self_contained: true</code>) to archive your project at the end, in case there are changes in pandoc, rmarkdown, etc.</li>
+<li>You can also render the poster in other formats, such as a <code>github_document</code> or <code>revealjs::revealjs_presentation</code></li>
+</ul>
+</div>
+</div>
+<div id="reproducible-research" class="section level2">
+<h2>Reproducible research</h2>
+<div id="directly-include-plots" class="section level3">
+<h3>Directly include plots</h3>
+<p><img src="anesthposter_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="directly-include-stats" class="section level3">
+<h3>Directly include stats</h3>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+</div>
+</div>
+</div>
+<div id="section-2" class="section level1 col-2">
+<h1></h1>
+<div id="customizable-themes" class="section level2">
+<h2>Customizable themes</h2>
+<p>Note the features for theming. If you had a special class attached to the .level1 or .slides/theme, you could use a general descendent selector to automatically get theming support, then break up these details into separate theme files.</p>
+</div>
+</div>
+<div id="section-3" class="section level1 col-4">
+<h1></h1>
+<div id="default-theme" class="section level2">
+<h2>Default theme</h2>
+<p>This is an example of the default theme.</p>
+</div>
+</div>
+<div id="section-4" class="section level1 col-4 theme-minimalist">
+<h1></h1>
+<div id="minimalist-theme" class="section level2">
+<h2>Minimalist theme</h2>
+<p>This is an example of the minimalist theme.</p>
+</div>
+</div>
+<div id="section-5" class="section level1 col-2">
+<h1></h1>
+<div id="see-also" class="section level2">
+<h2>See also</h2>
+<ul>
+<li>tikzposter latex template, and its example themes for inspiration <a href="https://bitbucket.org/surmann/tikzposter/downloads/" class="uri">https://bitbucket.org/surmann/tikzposter/downloads/</a></li>
+<li><a href="https://gist.github.com/Pakillo/4854e5d760351206084f6be8abe476b2">Other R markdown templates</a> with their advantages/disadvantages (pdf compatibility, consistent syntax with flexdashboard, etc.)</li>
+</ul>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-revealjs">
+<p>(1) <a href="http://lab.hakim.se/reveal-js/#/" class="uri">http://lab.hakim.se/reveal-js/#/</a>.</p>
+</div>
+<div id="ref-rstudio-reveal">
+<p>(2) <a href="https://github.com/rstudio/revealjs" class="uri">https://github.com/rstudio/revealjs</a>.</p>
+</div>
+<div id="ref-mdformats">
+<p>(3) <a href="http://rmarkdown.rstudio.com/developer_custom_formats.html" class="uri">http://rmarkdown.rstudio.com/developer_custom_formats.html</a>.</p>
+</div>
+<div id="ref-csl-github">
+<p>(4) <a href="https://github.com/citation-style-language/styles" class="uri">https://github.com/citation-style-language/styles</a>.</p>
+</div>
+<div id="ref-rstudio-bib">
+<p>(5) <a href="http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html" class="uri">http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html</a>.</p>
+</div>
+<div id="ref-stackoverflow-refs">
+<p>(6) <a href="https://stackoverflow.com/questions/41532707/include-rmd-appendix-after-references" class="uri">https://stackoverflow.com/questions/41532707/include-rmd-appendix-after-references</a>.</p>
+</div>
+<div id="ref-firefox-footnote">
+<p>(7) <em>Limited testing shows that Firefox also works, but it doesn’t yet apply experimental CSS rules for page size.</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  </body>
+</html>
