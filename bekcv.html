@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>index</title>
+
+
+<style type="text/css">
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+/* faux Wikipedia logo font */
+@font-face { font-family: 'Linux Libertine'; font-style: normal; font-weight: 400; src: local('Linux Libertine'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff'); } .fa-wikipedia:before { font-family: 'Linux Libertine', 'Times New Roman', Times, serif; font-weight: 400; content: "W"; }
+
+body {
+	font: normal normal 400;
+	font-size: 80%;
+	line-height: 1.5em;
+	/* font-family: 'Source Sans Pro', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 0em;
+	margin-left: 1em;
+}
+
+p {
+	position: relative;
+	left: 25%;
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 65%;
+}
+
+code {
+	font: normal normal;
+	font-size: 85%;
+	font-family: Menlo,monospace,sans-serif;
+	color: #6e7889;
+}
+
+p code {
+	position: absolute;
+	left: -10%;
+}
+
+
+ul {
+	position: relative;
+	left: 25%;
+	width: 65%;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+
+li {
+	/* empty */
+}
+
+li ul {
+	position: relative;
+	left: 0;
+/*	margin-top: 0.25em; */
+}
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 65%;
+}
+
+h1 {
+	color: #584848;
+	text-align: left;
+	font-size: 3em;
+	line-height: 1em;
+	position: relative;
+	margin-top: 1em;
+	left: 25%;
+      					1px 2px #ccc;
+}
+
+h1+p {
+	/*subtitle*/
+	color: #1D49A0;
+	font-style: italic;
+	font-size: 110%;
+	line-height: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0em !important;
+}
+
+h2 {
+	font-size: 1.1em;
+	/* color: #a00; */
+	color: #584848;
+	margin-top: 2em;
+	position: relative;
+	top: 1.4em;
+	text-align: right;
+	width: 15%;
+}
+
+h3 {
+	color: #393b45;
+	font-size: 1em;
+	line-height: 2em;
+	position: relative;
+	top: 1.7em;
+	text-align: right;
+	width: 15%;
+}
+
+a {
+	color: inherit;
+	/*text-decoration:none*/
+}
+
+a:hover {
+	color:#39f
+}
+
+#webaddress {
+	margin-top: 0em;
+	position: relative;
+  margin-left: 25%;
+	color: #aaa;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+em {
+	/*font-weight: bold; */
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#address {
+	display: none;
+}
+
+.footer {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+		position: relative;
+		left: 25%;
+		margin-top: 2em;
+		margin-bottom: 7em;
+		margin-right: 0;
+		width: 65%;
+}
+
+#technical
+
+/*
+@media only screen and (max-width: 480px) {
+	make one column somehow...
+}*/
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Bruce E. Kirkpatrick</h1>
+
+<p>MD/PhD candidate interested in surgery-science, tissue engineering, and regenerative medicine.
+<div id="webaddress">
+Aurora, Colorado
+|
+<a href="mailto:bruce.kirkpatrick@colorado.edu">bruce.kirkpatrick@colorado.edu</a>
+|
+(360) 562-6308
+|
+<i class="fa fa-website"></i> <a href="http://bruceedwardkirkpatrick.com">bruceekirk.com</a>
+|
+<i class="fa fa-twitter"></i> <a href="http://twitter.com/bruceekirk">@bruceekirk</a>
+</div></p>
+
+<h2 id="toc_1">Education</h2>
+
+<p><strong>University of Colorado Anschutz Medical Campus</strong>
+<br/> <code>2018-27</code>  MD/PhD Candidate, <a href="http://www.ucdenver.edu/academics/colleges/medicalschool/education/degree_programs/mstp/Pages/MSTP.aspx">Medical Scientist Training Program</a> </p>
+
+<p><strong>University of Colorado Boulder</strong>
+<br/> <code>2018</code> PhD Rotation, <a href="http://www.ucdenver.edu/academics/colleges/medicalschool/education/degree_programs/mstp/Pages/MSTP.aspx">Anseth Research Group</a>  <br/> <code>2013-17</code>
+ Bachelor of Science <a href="http://www.cuhonorsengineering.com/"><em>with honors</em></a>, <a href="https://www.colorado.edu/chbe/">Chemical and Biological Engineering</a>
+<br/> Minor in Business Analytics, <a href="https://www.colorado.edu/business/academic-programs/minor-business">Leeds School of Business</a></p>
+
+<h2 id="toc_2">Employment</h2>
+
+<p><code>2017-18</code>
+<strong><a href="http://bioanalytics.us/">iC42 Clinical Research and Development</a></strong>
+<br/> Investigated biomarkers of aging in immunocompromised humans and <em>Ppif-</em> mice
+<br/> Extracted biological samples and conducted &lsquo;omics&rsquo; analysis using LC-MS, Analyst, and MultiQuant</p>
+
+<p><code>2016-17</code>
+<strong><a href="https://www.nist.gov/people/kavita-jeerage">Jeerage Laboratory</a>, <a href="https://www.nist.gov/">NIST</a></strong> | <strong>Materials for Biological Environments Group</strong>
+<br/> Developed a non-destructive quantitation method for cellular nanoparticle uptake using absorbance analysis
+<br/> Functionalized gold nanoparticles with PEG-thiol and performed characterization with DLS/Zetasizer</p>
+
+<p><code>2014-16</code>
+<strong><a href="http://www.colorado.edu/goodwinlab/">Goodwin Research Group</a></strong> | <strong>University of Colorado Boulder</strong>
+<br/> Performed organic synthesis to functionalize anthraquinone-based monomers
+<br/> Generated neat Claisen rearrangment products and isolated specific isomers with preparatory TLC</p>
+
+<p><code>2015</code>
+<strong><a href="http://www.ucdenver.edu/academics/colleges/medicalschool/departments/Pharmacology/faculty/Pages/weiser-evans.aspx">Weiser-Evans Research Group</a></strong> | <strong>University of Colorado Anschutz Medical Campus</strong>
+<br/> Explored PTEN, α-SMA, Nrp1/2, and CD34 expression in human atheromas with IHC and confocal microscopy
+<br/> Quantified relative gene expression and colocalization using <a href="https://imagej.nih.gov/ij/">ImageJ</a> to characterize vessel phenotypes</p>
+
+<p><code>2014-15</code>
+<strong>Moulton Research Group</strong> | <strong>University of Colorado Anschutz Medical Campus</strong> <br/> Applied untargeted and Nrp2-targeted gold nanorods <em>in vitro</em> and <em>in vivo</em> in a 17-mouse study <br/> Analyzed biodistribution of targeted nanorods with LC-MS and quantified <em>in vitro</em> uptake using epifluorescence</p>
+
+<h2 id="toc_3">Publications</h2>
+
+<h3 id="toc_4">Academic</h3>
+
+<!-- ### Journals -->
+
+<p><code>2018</code>
+&ldquo;<a href="https://doi.org/10.1172/jci.insight.97228">PTEN deficiency promotes pathological 
+vascular remodeling of human coronary 
+arteries</a>&rdquo; <br />
+Moulton KS, Li M, Strand K, Burgett S, McClatchey P, Tucker R, Furgeson SB, Lu S, <strong>Kirkpatrick B</strong>, Cleveland JC, Nemenoff RA, Ambardekar AV, Weiser-Evans MCM. <em>JCI Insight</em>, 2018;3(4):e97228</p>
+
+<h3 id="toc_5">In revision</h3>
+
+<p><code>2018</code>
+&ldquo;CyP-D Knockout Protects the Mouse Kidney Against CsA-Induced Oxidative Stress and DNA Hypomethylation&rdquo; <br />
+Klawitter Je, Klawitter Jo, Pennington A, <strong>Kirkpatrick B</strong> Thurman JM, Christans U. <br /> Responding to comments from <em>AJP Renal</em>.</p>
+
+<h3 id="toc_6">Technical reports</h3>
+
+<p><code>2017</code>
+&ldquo;<a href="https://www.researchgate.net/publication/325655703_Coker_Gas_Plant_Design">Coker Gas Plant Design</a>&rdquo; (ExxonMobil senior design project) <br/>
+Magnuson E, Burns A, <strong>Kirkpatrick BE</strong>, Roda G, Miksch C. University of Colorado Boulder, 2017 </p>
+
+<h3 id="toc_7">Non-academic</h3>
+
+<p><code>2017</code> &ldquo;<a href="(https://journal2020.files.wordpress.com/2017/04/2017-v-v-2nd-ed-ggg-to-print-2.pdf)">Frequent Flyer: Why Isn&rsquo;t Dad Dead Yet?</a>&rdquo; <strong>Kirkpatrick B</strong>. <em>Journal 2020</em>. 5:31-38 </p>
+
+<h3 id="toc_8">Unpublished</h3>
+
+<p><code>2017</code>
+&ldquo;Nondestructive Evaluation of Gold Nanoparticle Uptake by Mammalian Cells,&rdquo;
+<strong>Kirkpatrick</strong>, White, Jeerage. <br/> Prepared at NIST before dissolution of Materials for Biological Environments Group.</p>
+
+<p><code>2016</code>
+&ldquo;Mechanocatalysis of a Claisen Rearrangement,&rdquo; Kumar, Weidner, <strong>Kirkpatrick</strong>, Goodwin. <br /> Project ended when <a href="https://scholar.google.com/citations?hl=en&amp;user=epeZixoAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Kumar</a> accepted a position at Tata Institute of Fundamental Research.</p>
+
+<p><code>2015</code>
+&ldquo;Quantified Distribution of Nrp2-Targeted AuNR,&rdquo;
+<strong>Kirkpatrick</strong>, Li, Tian, Wang, Ranville, Boyes, Moulton. <br /> Manuscript led to experiments described in &ldquo;<a href="https://doi.org/10.1172/jci.insight.97228">PTEN deficiency promotes pathological 
+vascular remodeling.</a>&rdquo;</p>
+
+<h3 id="toc_9">Figure Donations</h3>
+
+<p><code>2018</code>
+&ldquo;<a href="https://doi.org/10.1002/rth2.12129">Genomics and transcriptomics of megakaryocytes and platelets: Implications for health and disease</a>&rdquo; <br /> Fisher M, Di Paola J. <em>Res Pract Thromb Haemost</em>, 2018;00:1–10. <strong>Contributed Figure 1.</strong></p>
+
+<p><code>2015</code>
+&ldquo;<a href="https://dx.doi.org/10.18632%2Foncotarget.4842">ETV6 mutations define a new cancer predisposition syndrome</a>&rdquo; <br /> Kirkpatrick G, Noetzli L, Di Paola J, Porter CC. <em>Oncotarget</em>, 2015;6(19):16830-16831. <strong>Contributed Figure 1.</strong></p>
+
+<h2 id="toc_10">Presentations</h2>
+
+<h3 id="toc_11">Video Essays</h3>
+
+<p><code>2017</code>
+<em><a href="https://www.goo.gl/NZtwAq">Re-Recording the Record: Pseudotranslation and Pseudotranscription in Media and Reality</a></em> <br/> I discuss the effects  of  logical  failings  inherent  to  a  pseudotranslated  or pseudotranscribed  medium  and  the  paradoxically ameliorative  response  derived  from  these  flaws  on  the  medium itself (<a href="https://www.dropbox.com/s/eiwbkzxlubapx63/ReRecordingtheRecord_FInalProject_BruceKirkpatrick_updatedlink.pdf?dl=0">abstract / script / references</a>).</p>
+
+<p><code>2016</code>
+<em><a href="https://www.goo.gl/PkqR6s">Don’t Trust Your Ears: Physical and Digital Sound Manipulation</a></em> <br/> I  explain  the  concepts  of  sound  generation  and  manipulation  while highlighting  the  differences  in  the  physical  function  of  several  instruments:  violin,  trumpet,  and  clarinet (<a href="https://www.dropbox.com/s/4bhoampmkuxpytj/Don%27t%20Trust%20Your%20Ears%20Addendum.pdf?dl=0">proposal / script / references</a>). <br/> <em>Don&rsquo;t Trust Your Ears</em> was <a href="https://tdn.com/lifestyles/people/article_3b6a9a91-848b-5b84-b75a-f4e92654cbb6.html">awarded</a> the CU Boulder Mackison Writing Award.</p>
+
+<h3 id="toc_12">Talks</h3>
+
+<p><code>2017</code>
+&ldquo;Coker Gas Plant Design&rdquo; (ExxonMobil senior design project), <strong>B Kirkpatrick</strong>, E Magnuson, A Burns, G Roda, C Miksch.</p>
+
+<p>&ldquo;<em>Phillips v. AWH Corp:</em> Patent Claim Construction,&rdquo; <strong>B Kirkpatrick</strong>, E Magnuson.</p>
+
+<p><code>2016</code>
+&ldquo;Non-Destructive Quantitation of AuNP Uptake by Microplate Reader Absorbance Analysis,&rdquo; <strong>B Kirkpatrick</strong>, K Jeerage, S McCallan.</p>
+
+<h3 id="toc_13">Posters</h3>
+
+<p><code>2017</code>
+&ldquo;Effect of 1,8-dihydroxyanthraquinone on <em>Drosophila melanogaster</em> development&rdquo; <br/> <strong>B Kirkpatrick</strong>, J Moon; presented at Clinical Undergraduate Research Experience Symposium.</p>
+
+<p><code>2016</code>
+&ldquo;<em>Neuropilin 2</em>-Targeted Nanoparticles Bind Selectively to Plaque Neovascularization in Atherosclerotic Arteries&rdquo; <br/> <strong>Kirkpatrick</strong>, Li, Tian, Wang, Ranville, Tuder, Boyes, Moulton; presented at International Vascular Biology Meeting by Moulton.</p>
+
+<p><code>2014</code>
+&ldquo;Molecular Zipcodes of Vasa Vasorum Neovascularization in Atherosclerosis and Diabetes&rdquo; <br/> Li, Jones, <strong>Kirkpatrick</strong>, Chaudhary, Demos-Davies, Tuder, Taylor, Boyes, Moulton; presented at CCTSI Summit II by Moulton.</p>
+
+<h2 id="toc_14">Skills</h2>
+
+<h3 id="toc_15">Analytical</h3>
+
+<ul>
+<li>Applied data analysis</li>
+<li>DLS / zetasizer</li>
+<li>Epifluorescent / confocal microscopy</li>
+<li>ICP-MS for elemental gold analysis</li>
+<li>IR spectroscopy</li>
+<li>LC-MS/MS</li>
+<li>\(^1\textrm{H}\) NMR</li>
+<li>Thin layer chromatography</li>
+<li>UV-visible spectroscopy</li>
+</ul>
+
+<h3 id="toc_16">Technical skills</h3>
+
+<ul>
+<li>Cryostat-microtome sectioning</li>
+<li>Immunohistochemistry</li>
+<li><em>In-vitro</em> nanoparticle uptake assay</li>
+<li>Photolithography for microfluidics</li>
+<li>Proximity ligation assay</li>
+<li>RAFT / ATRP </li>
+<li>Tissue culture</li>
+<li>Tissue digestion</li>
+<li>Western blot</li>
+</ul>
+
+<h3 id="toc_17">Software</h3>
+
+<ul>
+<li>Analyst</li>
+<li>Aspen HYSYS/Plus</li>
+<li>ChemDraw</li>
+<li>COBRApy</li>
+<li>GitHub</li>
+<li>IgorPro</li>
+<li>Illustrator</li>
+<li>ImageJ</li>
+<li>InDesign</li>
+<li>IPLab</li>
+<li>LaTeX</li>
+<li>Markdown</li>
+<li>Mathematica</li>
+<li>Matlab</li>
+<li>MestreNova</li>
+<li>Minitab</li>
+<li>MultiQuant</li>
+<li>OCR analysis</li>
+<li>Photoshop</li>
+<li>Prism</li>
+<li>RStudio</li>
+<li>SquareSpace</li>
+<li>SuperPro Designer</li>
+<li>VBA</li>
+</ul>
+
+<h2 id="toc_18">Grants and Awards</h2>
+
+<p><code>2018</code> <strong>T32 Predoctoral Training Grant</strong> | National Institutes of Health</p>
+
+<p><code>2013-17</code> <strong>Joseph A. Sewall Award</strong> | University of Colorado Boulder</p>
+
+<p><code>2016</code> <strong>Summer Undergraduate Research Fellowship</strong> | National Institute of Standards and Technology</p>
+
+<p><code>2015</code> <strong>Southwest Affiliate Undergraduate Student Research Program</strong> | American Heart Association</p>
+
+<p><code>2014</code> <strong>Clinical Undergraduate Research Experience Grant</strong> | University of Colorado Boulder</p>
+
+<h2 id="toc_19">Selected Activities</h2>
+
+<p><code>2018</code>
+<strong>First trumpet</strong> | Anschutz Medical Campus Symphony Orchestra</p>
+
+<p><code>2014-17</code>
+<strong>Tutor</strong> | transport phenomenon, engineering maths, humanities, sociology</p>
+
+<p><code>2017</code>
+<strong>Volunteer</strong> | Denver Health Emergency Department and Adult Urgent Care</p>
+
+<p><strong>Finalist</strong> | Center for Education on Social Responsibility Business Ethics Case Competition</p>
+
+<p><code>2016</code>
+<strong>Outstanding Delegate &amp; Outstanding Delegation</strong> | New York National Model United Nations <br/> Represented Guyana in Economic Commission for Latin America and the Caribbean.</p>
+
+<p><code>2013-15</code>
+<strong>First trumpet, fourth trumpet</strong> | University of Colorado Thompson Jazz Studies Program Big Bands</p>
+
+<h2 id="toc_20">Conferences Attended</h2>
+
+<p><code>2018</code> 
+<em>Boulder Jazz Trumpet Consortium</em> | hosted by Jon Faddis, Brad Goode, Al Hood, and Greg Gisbert</p>
+
+<p><em>Presenting Data and Information</em> | hosted by Edward Tufte</p>
+
+<p><em>National MD/PhD Student Conference</em> | keynotes by James Crowe, Mario Capecchi, and Jeff Lichtman</p>
+
+<p><code>2016</code>
+<em>Denver Jazz Trumpet Consortium</em> | hosted by Bobby Shew, Brad Goode, Al Hood, and Greg Gisbert</p>
+
+<h2 id="toc_21">Music</h2>
+
+<p>I have extensive performance experience on trumpet and violin, with limited clarinet, saxophone, valve trombone, and viola skills.</p>
+
+<!-- ### Footer
+
+Last updated: 20180926 -->
+
+
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>
