@@ -13,7 +13,7 @@
 html {
 	/* Note that rem is set proportionally to the html root font size: https://css-tricks.com/html-vs-body-in-css/ */
 	font-family: var(--base-font-family);
-	font-size: 1cm;
+	font-size: 0.95cm;
 	line-height: 1.375; /* Use proportional line spacing so everything is self-consistent */
 }
 
@@ -27,6 +27,7 @@ h1, h2 {
 
 .author {
 	font-weight: normal;
+	font-size: 1.4cm
 }
 
 .title {
@@ -35,11 +36,11 @@ h1, h2 {
 }
 
 .slides > header ol.affiliations {
-	font-size: 0.8em;
+	font-size: 0.75em;
 }
 
 .references {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
 caption {

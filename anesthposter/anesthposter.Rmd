@@ -1,147 +1,215 @@
 ---
 title: "Cyclophilin D Knockout Protects the Mouse Kidney against Cyclosporine A-Induced Oxidative Stress and DNA Hypomethylation"
-author: ["<span class=\"presenter\">Bruce Kirkpatrick<sup>2</sup></span>, Jost Klawitter<sup>1</sup>, Alexander Pennington<sup>1</sup>, Joshua M. Thurman<sup>1</sup>, Uwe Christians<sup>1</sup>, Jelena Klawitter<sup>1</sup><ol class=\"affiliations\">University of Colorado Anschutz Medical Campus&ensp;<li>Department of Anesthesiology</li><li>Medical Scientist Training Program</li></ol>"]
+author: ["<span class=\"presenter\">Bruce Kirkpatrick<sup>1,3</sup></span>, Jost Klawitter<sup>1</sup>, Alexander Pennington<sup>1</sup>, Joshua M. Thurman<sup>2</sup>, Nidhi Kotecha<sup>1</sup>, Uwe Christians<sup>1</sup>, Jelena Klawitter<sup>1</sup><ol class=\"affiliations\">University of Colorado Anschutz Medical Campus&ensp;<li>Department of Anesthesiology</li>&ensp;<li>Division of Nephrology and Hypertension</li>&ensp;<li>Medical Scientist Training Program</li></ol>"]
 output:
   drposter::drposter_poster:
     fill_page: FALSE
     self_contained: FALSE
 csl: american-chemical-society.csl
 references:
-- id: revealjs
-  URL: 'http://lab.hakim.se/reveal-js/#/'
-  type: webpage
-- id: rstudio-reveal
-  URL: 'https://github.com/rstudio/revealjs'
-  type: webpage
-- id: mdformats
-  URL: 'http://rmarkdown.rstudio.com/developer_custom_formats.html'
-  type: webpage
-- id: pandoc
-  URL: 'http://pandoc.org/'
-  type: webpage
-- id: tikzposter
-  URL: 'https://www.ctan.org/pkg/tikzposter'
-  type: webpage
-- id: rstudio-bib
-  URL: 'http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html'
-  type: webpage
-- id: logo
-  URL: 'https://www.r-project.org/logo/'
-  type: webpage
-- id: stackoverflow-refs
-  URL: 'https://stackoverflow.com/questions/41532707/include-rmd-appendix-after-references'
-  type: webpage
-- id: csl-github
-  URL: 'https://github.com/citation-style-language/styles'
-  type: webpage
-- id: firefox-footnote
-  volume: "Limited testing shows that Firefox also works, but it doesn't yet apply experimental CSS rules for page size."
+- id: ref1
+  title: Cyclophilin D-dependent mitochondrial permeability transition regulates some necrotic but not apoptotic cell death
+  container-title: Nature
+  issued: 
+    year: 2005
+- id: ref2
+  title: Cyclophilin D is a component of mitochondrial permeability transition and mediates neuronal cell death after focal cerebral ischemia
+  container-title: PNAS
+  issued: 
+    year: 2005  
+- id: ref3
+  title: Oxidative stress caused by mitochondrial calcium overload
+  container-title: Ann NY Acad Sci
+  issued: 
+    year: 2010      
+- id: ref4
+  title: 'Oxidative and nitrosative stress in kidney disease: a case for cyclosporine A'
+  container-title: J Nephrol
+  issued: 
+    year: 2005
+- id: ref5
+  title: 'Mechanisms of cyclosporine-induced renal cell apoptosis: a systematic review'
+  container-title: Amer J Nephrol
+  issued: 
+    year: 2013
+- id: ref6
+  title: 'Urine metabolites reflect time-dependent effects of cyclosporine and sirolimus on rat kidney function'
+  container-title: Chem Res Toxicol
+  issued: 
+    year: 2009
+- id: ref7
+  title: 'Association of immunosuppressant-induced protein changes in the rat kidney with changes in urine metabolite patterns: a proteo-metabonomic study'
+  container-title: J Proteome Res
+  issued: 
+    year: 2010 
+- id: ref8
+  title: 'Low-salt diet and cyclosporine nephrotoxicity: changes in kidney cell metabolism'
+  container-title: J Proteome Res
+  issued: 
+    year: 2012  
+- id: ref9
+  title: 'Metabolic profiles in urine reflect nephrotoxicity of sirolimus and cyclosporine following rat kidney transplantation'
+  container-title: Nephron Exp Nephrol
+  issued: 
+    year: 2009   
+- id: ref10
+  title: 'Differential effects of cyclosporine and tacrolimus on arterial function'
+  container-title: Transpl Int
+  issued: 
+    year: 2011   
+- id: ref11
+  title: 'Effect of tacrolimus and cyclosporine on renal microcirculation and nitric oxide production'
+  container-title: Transpl Proc
+  issued: 
+    year: 2004       
+- id: ref12
+  title: 'Nuclear association of a T-cell transcription factor blocked by FK-506 and cyclosporin A'
+  container-title: Nature
+  issued: 
+    year: 1991
+- id: ref13
+  title: 'Calcineurin is a common target of cyclophilin-cyclosporin A and FKBP-FK506 complexes'
+  container-title: Cell
+  issued: 
+    year: 1991
+- id: ref14
+  title: 'Exploring treatment options in renal transplantation: the problems of chronic allograft dysfunction and drug-related nephrotoxicity'
+  container-title: Transplantation
+  issued: 
+    year: 2001
+- id: ref15
+  title: 'Long-term renal allograft survival: have we made significant progress or is it time to rethink our analytic and therapeutic strategies?'
+  container-title: Am J Transpl
+  issued: 
+    year: 2004 
+- id: ref16
+  title: 'Twenty-third official adult heart transplantation report'
+  container-title: J Heart Lung Transpl
+  issued: 
+    year: 2006  
+- id: ref17
+  title: 'Postconditioning inhibits mitochondrial permeability transition'
+  container-title: Circulation
+  issued: 
+    year: 2005  
+- id: ref18
+  title: 'Inhibiting mitochondrial permeability transition pore opening: a new paradigm for myocardial preconditioning?'
+  container-title: Cardiovasc Res
+  issued: 
+    year: 2002   
+- id: ref19
+  title: 'Postconditioning inhibits mitochondrial permeability transition'
+  container-title: Future Cardiol
+  issued: 
+    year: 2005   
+- id: ref20
+  title: 'Inhibition of anoxia-induced injury in heart myocytes by cyclosporin A'
+  container-title: J Mol Cell Cardio
+  issued: 
+    year: 1991       
+- id: ref21
+  title: 'Cyclosporine A prevents apoptosis- related mitochondrial dysfunction after neonatal cardioplegic arrest'
+  container-title: J Thorac Cardiovasc Surg
+  issued: 
+    year: 2008
+- id: ref22
+  title: 'Loss of cyclophilin D reveals a critical role for mitochondrial permeability transition in cell death'
+  container-title: Nature
+  issued: 
+    year: 2005
+- id: ref23
+  title: 'Cyclophilin D gene ablation protects mice from ischemic renal injury'
+  container-title: Am J Phys Renal
+  issued: 
+    year: 2009
+- id: ref24
+  title: 'Knockdown of Cyclophilin D Gene by RNAi Protects Rat from Ischemia/ Reperfusion-Induced Renal Injury'
+  container-title: Kidney & Blood P Res
+  issued: 
+    year: 2004 
+- id: ref25
+  title: 'Cyclophilin D and the mitochondrial permeability transition in kidney proximal tubules after hypoxic and ischemic injury'
+  container-title: Am J Phys Renal
+  issued: 
+    year: 2011
+- id: ref26
+  title: 'Physiologic functions of cyclophilin D and the mitochondrial permeability transition pore'
+  container-title: Circ J
+  issued: 
+    year: 2013
+- id: ref27
+  title: 'Cyclophilin D controls mitochondrial pore- dependent Ca(2+) exchange, metabolic flexibility, and propensity for heart failure in mice'
+  container-title:  J Clin Invest
+  issued: 
+    year: 2010
+- id: ref28
+  title: 'CypD(-/-) hearts have altered levels of proteins involved in Krebs cycle, branch chain amino acid degradation and pyruvate metabolism'
+  container-title:  J Mol Cell Cardio
+  issued: 
+    year: 2013                                
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)  # Hide code by default. Can override chunk-by-chunk
 ```
 
-<!-- The name drposter came from a convoluted pun: it's a poster based on R, M.D. files (not a real doctor),
-and it also generates academic posters for PhD's and others. -->
-
 
 # {.col-2 style="grid-row: span 4;"}
 <!-- Span the first column for four rows, that way we can capture the usage block, two rows of template examples, and refs/footer information -->
 
-## Overview
+## Abstract 
 
-* Template for writing HTML/CSS posters using Rmarkdown
-* Same conventions as pandoc presentations (e.g. reveal.js)[@revealjs; @rstudio-reveal; @mdformats]
-* Separates content from presentation
-* Goal: automatically get consistent spacing from specifications instead of a manual layout
-
-<p style="text-align:center;">
-![](drposter.png){style="width:60%;"}
-</p>
+We treated wild-type and mice lacking cyclophilin (CypD; _Ppif_ -/-) with cyclosporin A (CsA) to test the role and contribution of CypD to widely described CsA-induced renal toxicity and oxidative stress. Our results showed an increase in several known uremic toxins as well as oxidative stress markers prostaglandin F2&alpha; and 8-isoprostane in CsA-treated WT, but not in _Ppif_ -/- animals. Similarly, a decline in S-adenosylmethionine and the resulting methylation potential indicative of DNA hypomethylation was observed only in CsA-treated WT mice. This confirms previous reports of protective effects of CypD deletion on the mouse kidney mediated through a stronger resistance of these animals to oxidative stress and DNA methylation damage. However, negative effects of CsA on the glycolysis and overall energy metabolism in _Ppif_ -/- mice also indicated that additional, CypD-independent pathways are involved in the toxic effects of CsA on the kidney. 
 
 
-## Rmarkdown structure
+## Background
 
-<div class="fullwidth">See also the [source code](https://github.com/bbucior/drposter/tree/master/inst/example/poster.Rmd) and [compiled pdf](https://github.com/bbucior/drposter/tree/master/inst/example/poster.pdf) for this poster on Github.</div>
+<div class="fullwidth"> Mitochondrial dysfunction and oxidative stress have been implicated in CsA-induced nephrotoxicity. Controversial reports have suggested that CypD deletion may or may not be protective in the protection of cells against oxidative stress-induced cell death. </div>
 
-```
----
-title: Title of your document within R Markdown's YAML header
-output: drposter::drposter_poster
----
+### Cyclophilin D
+CypD (encoded by the _Ppif_ gene) is an essential structural component of the mitochondrial permeability transition pore (MPTP) and as such involved in its opening and subsequent regulation of cell death.[@ref1;@ref2] Despite years of research, the mechanism of CsA nephrotoxicity remains poorly understood, however, with several potential mechanisms identified: oxidative stress,[@ref3;@ref4] apoptosis,[@ref5] metabolic changes [@ref6;@ref7;@ref8;@ref9] and an increase of vascular resistance resulting in decreased renal blood flow.[@ref10;@ref11]
 
-# {.col-3}
-## Overall document columns (`<h1>`)
+### Cyclosporine
+CSA blocks the phosphatase activity of calcineurin after binding to its cellular co-effectors, the cyclophilins. [@ref12;@ref13] CsA is responsible for a significant improvement of short-term survival of transplant organs. [@ref14] However, long-term graft survival in renal transplant recipients has only seen a marginal improvement. [@ref15;@ref16] As of today, approximately 50% of renal allograft transplant patients still lose their transplant after 12 years, among other reasons due to immunosuppressant-induced nephrotoxicity. 
 
-Content is organized using headers as sections.  Level 1 sections
-define the overall layout of subblocks.  Use the `.col-x` class to
-use x columns for subblocks.
+### 
+<div class="fullwidth">CsA has been shown to protect against ischemia/reperfusion (I/R) organ injury, [@ref17;@ref18;@ref19;@ref20;@ref21] an observation that most likely arises from CsA’s ability to inhibit CypD. Mice that lack CypD have enhanced capacity to retain mitochondrial calcium, show delayed opening of the MPTP when calcium overload is present, and have smaller infarctions and less damage after prolonged I/R.[@ref22;@ref23;@ref24;@ref1;@ref25] However, _Ppif_ -/- mice are more susceptible to heart failure initiated by different stimuli, such as exercise-induced hypertrophy. [@ref26;@ref27] Mechanistically, CypD ablation is associated with elevated levels of mitochondrial matrix Ca2+ that in turn leads to increased glucose oxidation relative to fatty acids. This metabolic switch limits the ability of organs, including kidney, to adapt during stress,[@ref26;@ref27;@ref28] and is similar to the effects we have observed after CsA treatment.[@ref6;@ref8;@ref9]</div>
 
-## Another left column block
+## Hypothesis 
 
-You can place multiple subblocks within the same overall .col-x,
-for example to get a 3-column layout like this example code here.
+<div class="fullwidth">As one of the major potential molecular targets of CsA nephrotoxicity is missing, we hypothesized that mice with CypD deficiency will show a better outcome following CsA treatment with regard to the changes inflammatory response, less generation of oxidative stress and a higher renal energy capacity as compared to normal mice treated with CsA.</div>
 
-# {.col-3}
-## Individual content blocks (`<h2>`)
+## Methods
 
-Actual content goes within the level 2 blocks, which have two inner
-columns by default, e.g. for figures.
+#### Mouse experiments
 
-![](path_to_figure.jpg)
+Eight-week old male and female mice (WT B6.129SF2 and _Ppif_ -/-) were given either skim milk or treated by oral gavage with CsA at (a) 25 mg/kg/day and (b) 50 mg/kg/day for 28 days. Animals were weighed weekly and blood glucose was monitored at the same time via tail vein prick blood collection. Urine and plasma collections occurred biweekly. At the end of treatment, the mice were sacrificed and blood, urine, and tissues were collected.
 
-Most of the markdown commands seem to work, though there are
-probably still some that are untested.
+#### Kidney histology
 
-# {.col-3}
-## Use this div to automatically write your references to a section:
+Kidney tissue samples were fixed and embedded before staining in eosin solution. Stain intensity was optimized in ammonia water and sections were dehydrated in xylene. Images of the kidney sections were captured and 25 high-powered fields were examined in the tubulo-interstitium of the cortex and outer medulla of each section. The kidneys were examined for inflammation, epithelial necrosis, loss of brush border, and tubular dilatation.
 
-<div id="refs" class="references"></div>
+#### Analyte quantification
 
-```
-
-## Licensing
-
-### 3rd party
-* Package inspired by reveal.js presentation framework[@revealjs] and its R package[@rstudio-reveal]
-* Fonts under their respective licenses
-* Logo: thanks to Openclipart for the CC0 [graduation cap image](https://openclipart.org/detail/244447/minimliast-graduation-hat), [hexSticker](https://github.com/GuangchuangYu/hexSticker) for sticker generation, and [bcbioSmallRna](https://github.com/lpantano/bcbioSmallRna/blob/master/inst/sticker/sticker.R) for a helpful sticker example
-* See [CitationStyles.org](https://citationstyles.org/) and the CSL project[@csl-github] for more info about citation options (CC BY SA 3.0)
-
-### This package
-* drposter may be used under different licenses at your option
-* Entire R package: GPLv3 (like [R markdown](https://github.com/rstudio/rmarkdown))
-* Files for the [drposter pandoc template](https://github.com/bbucior/drposter/tree/master/inst/rmarkdown/templates/drposter/skeleton/drposter_files): same conditions as the official [pandoc templates](https://github.com/jgm/pandoc/tree/master/data/templates)
-* Poster CSS: [CC0 public domain](https://creativecommons.org/publicdomain/zero/1.0/)
+Oxidative stress markers, creatinine, CsA, and high-energy phosphate metabolite concentrations were determined in extracted blood, plasma, urine, and snap-frozen tissue samples with LC-MS/MS. Corresponding deuterated internal standards were used for quantification.
 
 
-## Community {style="--header-color:darkred; --other-color-for-h2-gradient:red;"}
+#### Metabolomic analysis
 
-<p class="qr">
-![QR code](Resources/qr_code.png)
-For more information, please visit the project page at <https://github.com/bbucior/drposter>.  Feel free to report issues, pull requests, or general comments on Github.
-</p>
-
+Tissue samples were homogenized and subjected to a modified semi-quantitative targeted metabolomics. Positive identification of the metabolites of interest was performed through injection of pure compound standards. Some proteins were further analyzed by Western blot.
 
 
 # {.col-2}
 
-## How to use this package
+## Results
 
-### Installation and updates {.fullwidth}
+### Physiological and Histological Changes {.fullwidth}
+ 
+Neither phenotype nor treatment with CsA for 28 days impacted animal weight gain or blood glucose levels. Inflammation was not observed in the glomerular or tubulointerstitial compartments of either strain of mice. Treatment with CsA was also not associated with tubular damage in either strain of mice. Vascular congestion was seen in the glomeruli of some _Ppif_ -/- mice but was seen in both control and CsA-treated mice.
 
-1. `devtools::install_github("bbucior/drposter", dep=FALSE)` (or `install_local` on a downloaded copy) to install/update the package
-2. In RStudio, you can find the format listed as a template under the "New R Markdown" wizard, or use the command line.
-3. Template files are cached in `drposter_files/` to decouple your poster from the installed package version.  Use `drposter_update` to resync them.
+### Creatinine & CsA
 
-### Customizing the template
-
-* Avoid modifying `drposter_files/`
-* Indirectly override those rules in your own `custom.css` or equivalent
-  * Easier to see and share your changes
-  * Decouples your modifications from the base drposter styles
-* Customize the format of the bibliography[@rstudio-bib;@stackoverflow-refs] using a CSL style[@csl-github]
+No changes in CsA blood concentration were observed between the mice (either sex-related or strain-based)  and plasma creatinine levels increased in all CsA-treated animals, but reached significance only in WT animals treated with 50 mg/kg/day CsA.
 
 ### Export
 
@@ -193,6 +261,7 @@ This is an example of the minimalist theme.
 * tikzposter latex template, and its example themes for inspiration <https://bitbucket.org/surmann/tikzposter/downloads/>
 * [Other R markdown templates](https://gist.github.com/Pakillo/4854e5d760351206084f6be8abe476b2) with their advantages/disadvantages (pdf compatibility, consistent syntax with flexdashboard, etc.)
 
+# {.col-1 .theme-minimalist} 
 
-## References
+## References {style="--header-color:Black; --other-color-for-h2-gradient:Gray;"}
 <div id="refs" class="references"></div>
