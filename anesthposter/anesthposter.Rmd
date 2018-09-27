@@ -218,21 +218,13 @@ No changes in CsA blood concentration were observed between the mice (either sex
 * You can also render the poster in other formats, such as a `github_document` or `revealjs::revealjs_presentation`
 
 
-## Reproducible research
+### Metabolic differences in kidneys {.fullwidth}
 
-### Directly include plots
+<p style="text-align:center;">
+![](posterfig.png){style="width:100%;"}
+</p>
 
-```{r, echo=FALSE}
-plot(cars)
-```
-
-### Directly include stats
-
-```{r cars_demo}
-summary(cars)
-```
-
-
+aasdfasdf
 
 # {.col-2}
 
