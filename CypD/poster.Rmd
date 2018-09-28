@@ -159,7 +159,7 @@ knitr::opts_chunk$set(echo = FALSE)  # Hide code by default. Can override chunk-
 
 ## Abstract 
 
-We treated wild-type and mice lacking cyclophilin (CypD; _Ppif_ -/-) with cyclosporin A (CsA) to test the role and contribution of CypD to widely described CsA-induced renal toxicity and oxidative stress. Our results showed an increase in several known uremic toxins as well as oxidative stress markers prostaglandin F2&alpha; and 8-isoprostane in CsA-treated WT, but not in _Ppif_ -/- animals. Similarly, a decline in S-adenosylmethionine and the resulting methylation potential indicative of DNA hypomethylation was observed only in CsA-treated WT mice. This confirms previous reports of protective effects of CypD deletion on the mouse kidney mediated through a stronger resistance of these animals to oxidative stress and DNA methylation damage. However, negative effects of CsA on the glycolysis and overall energy metabolism in _Ppif_ -/- mice also indicated that additional, CypD-independent pathways are involved in the toxic effects of CsA on the kidney. 
+We treated wild-type and mice lacking cyclophilin (CypD; _Ppif_ -/-) with cyclosporin A (CsA) to test the role and contribution of CypD to widely described CsA-induced renal toxicity and oxidative stress. Our results showed an increase in several known uremic toxins as well as oxidative stress markers prostaglandin F2&alpha; and 8-isoprostane in CsA-treated WT, but not in _Ppif_ -/- animals. Similarly, a decline in S-adenosylmethionine (SAM) and the resulting methylation potential indicative of DNA hypomethylation was observed only in CsA-treated WT mice. This confirms previous reports of protective effects of CypD deletion on the mouse kidney mediated through a stronger resistance of these animals to oxidative stress and DNA methylation damage. However, negative effects of CsA on the glycolysis and overall energy metabolism in _Ppif_ -/- mice also indicated that additional, CypD-independent pathways are involved in the toxic effects of CsA on the kidney. 
 
 
 ## Background
@@ -167,17 +167,17 @@ We treated wild-type and mice lacking cyclophilin (CypD; _Ppif_ -/-) with cyclos
 <div class="fullwidth"> Mitochondrial dysfunction and oxidative stress have been implicated in CsA-induced nephrotoxicity. Controversial reports have suggested that CypD deletion may or may not be protective in the protection of cells against oxidative stress-induced cell death. </div>
 
 ### Cyclophilin D
-CypD (encoded by the _Ppif_ gene) is an essential structural component of the mitochondrial permeability transition pore (MPTP) and as such involved in its opening and subsequent regulation of cell death.[@ref1;@ref2] Despite years of research, the mechanism of CsA nephrotoxicity remains poorly understood, however, with several potential mechanisms identified: oxidative stress,[@ref3;@ref4] apoptosis,[@ref5] metabolic changes [@ref6;@ref7;@ref8;@ref9] and an increase of vascular resistance resulting in decreased renal blood flow.[@ref10;@ref11]
+CypD (encoded by the _Ppif_ gene) is an essential structural component of the mitochondrial permeability transition pore (MPTP) and is involved in MPTP opening and subsequent regulation of cell death.[@ref1;@ref2] Despite years of research, the mechanism of CsA nephrotoxicity remains poorly understood, with several potential mechanisms identified: oxidative stress,[@ref3;@ref4] apoptosis,[@ref5] metabolic changes [@ref6;@ref7;@ref8;@ref9] and an increase of vascular resistance resulting in decreased renal blood flow.[@ref10;@ref11]
 
 ### Cyclosporine
-CSA blocks the phosphatase activity of calcineurin after binding to its cellular co-effectors, the cyclophilins. [@ref12;@ref13] CsA is responsible for a significant improvement of short-term survival of transplant organs. [@ref14] However, long-term graft survival in renal transplant recipients has only seen a marginal improvement. [@ref15;@ref16] As of today, approximately 50% of renal allograft transplant patients still lose their transplant after 12 years, among other reasons due to immunosuppressant-induced nephrotoxicity. 
+CSA blocks the phosphatase activity of calcineurin after binding to its cellular co-effectors, the cyclophilins. [@ref12;@ref13] CsA is responsible for a significant improvement of short-term survival of transplant organs. [@ref14] However, long-term graft survival in renal transplant recipients has only seen a marginal improvement. [@ref15;@ref16] As of today, approximately 50% of renal allograft transplant patients still lose their transplant after 12 years, often due to immunosuppressant-induced nephrotoxicity. 
 
 ### 
-<div class="fullwidth">CsA has been shown to protect against ischemia/reperfusion (I/R) organ injury, [@ref17;@ref18;@ref19;@ref20;@ref21] an observation that most likely arises from CsA’s ability to inhibit CypD. Mice that lack CypD have enhanced capacity to retain mitochondrial calcium, show delayed opening of the MPTP when calcium overload is present, and have smaller infarctions and less damage after prolonged I/R.[@ref22;@ref23;@ref24;@ref1;@ref25] However, _Ppif_ -/- mice are more susceptible to heart failure initiated by different stimuli, such as exercise-induced hypertrophy. [@ref26;@ref27] Mechanistically, CypD ablation is associated with elevated levels of mitochondrial matrix Ca2+ that in turn leads to increased glucose oxidation relative to fatty acids. This metabolic switch limits the ability of organs, including kidney, to adapt during stress,[@ref26;@ref27;@ref28] and is similar to the effects we have observed after CsA treatment.[@ref6;@ref8;@ref9]</div>
+<div class="fullwidth">CsA has been shown to protect against ischemia/reperfusion (I/R) organ injury, [@ref17;@ref18;@ref19;@ref20;@ref21] an observation that most likely arises from CsA’s ability to inhibit CypD. Mice that lack CypD have enhanced capacity to retain mitochondrial calcium, show delayed opening of the MPTP when calcium overload is present, and have smaller infarctions and less damage after prolonged I/R.[@ref22;@ref23;@ref24;@ref1;@ref25] However, _Ppif_ -/- mice are more susceptible to heart failure initiated by different stimuli, such as exercise-induced hypertrophy. [@ref26;@ref27] Mechanistically, CypD ablation is associated with elevated levels of mitochondrial matrix Ca<sup>2+</sup> that in turn leads to increased glucose oxidation relative to fatty acids. This metabolic switch limits the ability of organs, including kidney, to adapt during stress,[@ref26;@ref27;@ref28] and is similar to the effects we have observed after CsA treatment.[@ref6;@ref8;@ref9]</div>
 
 ## Hypothesis 
 
-<div class="fullwidth">As one of the major potential molecular targets of CsA nephrotoxicity is missing, we hypothesized that mice with CypD deficiency will show a better outcome following CsA treatment with regard to the changes inflammatory response, less generation of oxidative stress and a higher renal energy capacity as compared to normal mice treated with CsA.</div>
+<div class="fullwidth">As one of the major potential molecular targets of CsA nephrotoxicity is missing, we hypothesized that mice with CypD deficiency will show a better outcome following CsA treatment with regard to changes in inflammatory response, less generation of oxidative stress, and a higher renal energy capacity as compared to normal mice treated with CsA.</div>
 
 ## Methods
 
@@ -201,57 +201,64 @@ Tissue samples were homogenized and subjected to a modified semi-quantitative ta
 
 # {.col-2}
 
-## Results
-
-### Physiological and Histological Changes {.fullwidth}
+## Physiological and Histological Changes
  
-Neither phenotype nor treatment with CsA for 28 days impacted animal weight gain or blood glucose levels. Inflammation was not observed in the glomerular or tubulointerstitial compartments of either strain of mice. Treatment with CsA was also not associated with tubular damage in either strain of mice. Vascular congestion was seen in the glomeruli of some _Ppif_ -/- mice but was seen in both control and CsA-treated mice.
+Neither phenotype nor treatment with CsA impacted animal weight gain or blood glucose levels. Inflammation was not observed in the glomerular or tubulointerstitial compartments of either strain of mice. Vascular congestion was seen in the glomeruli of _Ppif_ -/- mice. 
 
-### Creatinine & CsA
+#{.col-4}
 
-No changes in CsA blood concentration were observed between the mice (either sex-related or strain-based)  and plasma creatinine levels increased in all CsA-treated animals, but reached significance only in WT animals treated with 50 mg/kg/day CsA.
+## Creatinine & CsA
 
-### Export
-
-* View and "print as PDF" from Chrome[@firefox-footnote]  <!-- Note: the footnote used to be a bibtex "note," but the default ACS template doesn't include that field -->
-* Be sure to save a PDF (and possibly html with `self_contained: true`) to archive your project at the end, in case there are changes in pandoc, rmarkdown, etc.
-* You can also render the poster in other formats, such as a `github_document` or `revealjs::revealjs_presentation`
+No changes in CsA blood concentration were observed between the mice  and plasma creatinine levels increased in all CsA-treated animals, but reached significance only in WT animals treated with 50 mg/kg/day CsA.
 
 
-### Metabolic differences in kidneys {.fullwidth}
+## Uremic Toxins
 
-<p style="text-align:center;">
-![](posterfig.png){style="width:100%;"}
-</p>
-
-aasdfasdf
-
-# {.col-2}
-
-## Customizable themes
-
-Note the features for theming.  If you had a special class attached to the .level1 or .slides/theme, you could use a general descendent selector to automatically get theming support, then break up these details into separate theme files.
-
-# {.col-4}
-
-## Default theme
-
-This is an example of the default theme.
-
-# {.col-4 .theme-minimalist}
-
-## Minimalist theme
-
-This is an example of the minimalist theme.
+<div class="fullwidth">![](posterfig.png){style="width:100%;"}
+Hyperuricemia increases risk of hypertension, diabetes, and metabolic syndrome in renal transplant patients. High uric acid concentrations and low xanthine levels suggest increased conversion of xanthine to uric acid. 5-HIAA accumulates in uremic patients and induces endothelial inflammation and oxidative stress leading to increased cardiovascular risk in kidney disease.
+</div>
 
 
-# {.col-2}
+#{.col-4}
 
 
-## See also
+## Oxidative Stress 
 
-* tikzposter latex template, and its example themes for inspiration <https://bitbucket.org/surmann/tikzposter/downloads/>
-* [Other R markdown templates](https://gist.github.com/Pakillo/4854e5d760351206084f6be8abe476b2) with their advantages/disadvantages (pdf compatibility, consistent syntax with flexdashboard, etc.)
+<div class="fullwidth"> ![](oxstress.png){style="width:100%;"}
+
+Plasma levels of oxidative stress markers PF2&alpha; and 8-isoprostane increased in WT male and female mice, but not in _Ppif_ -/- male mice.</div>
+
+
+## DNA Methylation
+
+<div class="fullwidth"> ![](meth.png){style="width:100%;"}
+
+Reduced SAM leads to reduced cellular methylation capacity and DNA hypomethylation in _Ppif_ -/- animals.</div>
+
+
+#{.col-2}
+
+## Energy Metabolism
+![](posterfig2.png){style="width:100%;"}
+Following CsA treatment, _Ppif_ -/- animals showed significantly lower kidney lactate concentrations, unchanged Krebs cycle activity, and significant decreases in energy production following CsA treatment. _Ppif_ -/- animals shift from &beta;-fatty acid oxidation towards glucose metabolism, which is exhibited by lower concentrations of acetyl-CoA and acetyl-CoA-transporting acetylcarnitine as compared to their WT counterparts.
+
+
+#{.col-4}
+
+## Metabolomics
+
+<div class="fullwidth"> ![](metab.png){style="width:100%;"}
+
+PLSDA revealed separation of the CsA-treated males and females. Metabolites that were significantly different across CsA-treated animals were projected and used for sample clustering. </div>
+
+
+#{.col-4}
+
+## Gender Differences
+
+<div class="fullwidth"> ![](gend.png){style="width:100%;"}
+Several metabolites varied in CsA-treated females as compared to males (independent of the mouse strain). Our results suggest that female mice are more sensitive to nephrotoxic effects of CsA when compared to their respective male counterparts, despite their estrogen-mediated protected status when untreated.
+</div>
 
 # {.col-1 .theme-minimalist} 
 
