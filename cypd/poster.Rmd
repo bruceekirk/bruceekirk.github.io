@@ -1,0 +1,266 @@
+---
+title: "Cyclophilin D Knockout Protects the Mouse Kidney against Cyclosporine A-Induced Oxidative Stress and DNA Hypomethylation"
+author: ["<span class=\"presenter\">Bruce Kirkpatrick<sup>1,3</sup></span>, Jost Klawitter<sup>1</sup>, Alexander Pennington<sup>1</sup>, Joshua M. Thurman<sup>2</sup>, Nidhi Kotecha<sup>1</sup>, Uwe Christians<sup>1</sup>, Jelena Klawitter<sup>1</sup><ol class=\"affiliations\">University of Colorado Anschutz Medical Campus&ensp;<li>Department of Anesthesiology</li>&ensp;<li>Division of Nephrology and Hypertension</li>&ensp;<li>Medical Scientist Training Program</li></ol>"]
+output:
+  drposter::drposter_poster:
+    fill_page: FALSE
+    self_contained: FALSE
+csl: american-chemical-society.csl
+references:
+- id: ref1
+  title: Cyclophilin D-dependent mitochondrial permeability transition regulates some necrotic but not apoptotic cell death
+  container-title: Nature
+  issued: 
+    year: 2005
+- id: ref2
+  title: Cyclophilin D is a component of mitochondrial permeability transition and mediates neuronal cell death after focal cerebral ischemia
+  container-title: PNAS
+  issued: 
+    year: 2005  
+- id: ref3
+  title: Oxidative stress caused by mitochondrial calcium overload
+  container-title: Ann NY Acad Sci
+  issued: 
+    year: 2010      
+- id: ref4
+  title: 'Oxidative and nitrosative stress in kidney disease: a case for cyclosporine A'
+  container-title: J Nephrol
+  issued: 
+    year: 2005
+- id: ref5
+  title: 'Mechanisms of cyclosporine-induced renal cell apoptosis: a systematic review'
+  container-title: Amer J Nephrol
+  issued: 
+    year: 2013
+- id: ref6
+  title: 'Urine metabolites reflect time-dependent effects of cyclosporine and sirolimus on rat kidney function'
+  container-title: Chem Res Toxicol
+  issued: 
+    year: 2009
+- id: ref7
+  title: 'Association of immunosuppressant-induced protein changes in the rat kidney with changes in urine metabolite patterns: a proteo-metabonomic study'
+  container-title: J Proteome Res
+  issued: 
+    year: 2010 
+- id: ref8
+  title: 'Low-salt diet and cyclosporine nephrotoxicity: changes in kidney cell metabolism'
+  container-title: J Proteome Res
+  issued: 
+    year: 2012  
+- id: ref9
+  title: 'Metabolic profiles in urine reflect nephrotoxicity of sirolimus and cyclosporine following rat kidney transplantation'
+  container-title: Nephron Exp Nephrol
+  issued: 
+    year: 2009   
+- id: ref10
+  title: 'Differential effects of cyclosporine and tacrolimus on arterial function'
+  container-title: Transpl Int
+  issued: 
+    year: 2011   
+- id: ref11
+  title: 'Effect of tacrolimus and cyclosporine on renal microcirculation and nitric oxide production'
+  container-title: Transpl Proc
+  issued: 
+    year: 2004       
+- id: ref12
+  title: 'Nuclear association of a T-cell transcription factor blocked by FK-506 and cyclosporin A'
+  container-title: Nature
+  issued: 
+    year: 1991
+- id: ref13
+  title: 'Calcineurin is a common target of cyclophilin-cyclosporin A and FKBP-FK506 complexes'
+  container-title: Cell
+  issued: 
+    year: 1991
+- id: ref14
+  title: 'Exploring treatment options in renal transplantation: the problems of chronic allograft dysfunction and drug-related nephrotoxicity'
+  container-title: Transplantation
+  issued: 
+    year: 2001
+- id: ref15
+  title: 'Long-term renal allograft survival: have we made significant progress or is it time to rethink our analytic and therapeutic strategies?'
+  container-title: Am J Transpl
+  issued: 
+    year: 2004 
+- id: ref16
+  title: 'Twenty-third official adult heart transplantation report'
+  container-title: J Heart Lung Transpl
+  issued: 
+    year: 2006  
+- id: ref17
+  title: 'Postconditioning inhibits mitochondrial permeability transition'
+  container-title: Circulation
+  issued: 
+    year: 2005  
+- id: ref18
+  title: 'Inhibiting mitochondrial permeability transition pore opening: a new paradigm for myocardial preconditioning?'
+  container-title: Cardiovasc Res
+  issued: 
+    year: 2002   
+- id: ref19
+  title: 'Postconditioning inhibits mitochondrial permeability transition'
+  container-title: Future Cardiol
+  issued: 
+    year: 2005   
+- id: ref20
+  title: 'Inhibition of anoxia-induced injury in heart myocytes by cyclosporin A'
+  container-title: J Mol Cell Cardio
+  issued: 
+    year: 1991       
+- id: ref21
+  title: 'Cyclosporine A prevents apoptosis- related mitochondrial dysfunction after neonatal cardioplegic arrest'
+  container-title: J Thorac Cardiovasc Surg
+  issued: 
+    year: 2008
+- id: ref22
+  title: 'Loss of cyclophilin D reveals a critical role for mitochondrial permeability transition in cell death'
+  container-title: Nature
+  issued: 
+    year: 2005
+- id: ref23
+  title: 'Cyclophilin D gene ablation protects mice from ischemic renal injury'
+  container-title: Am J Phys Renal
+  issued: 
+    year: 2009
+- id: ref24
+  title: 'Knockdown of Cyclophilin D Gene by RNAi Protects Rat from Ischemia/ Reperfusion-Induced Renal Injury'
+  container-title: Kidney & Blood P Res
+  issued: 
+    year: 2004 
+- id: ref25
+  title: 'Cyclophilin D and the mitochondrial permeability transition in kidney proximal tubules after hypoxic and ischemic injury'
+  container-title: Am J Phys Renal
+  issued: 
+    year: 2011
+- id: ref26
+  title: 'Physiologic functions of cyclophilin D and the mitochondrial permeability transition pore'
+  container-title: Circ J
+  issued: 
+    year: 2013
+- id: ref27
+  title: 'Cyclophilin D controls mitochondrial pore- dependent Ca(2+) exchange, metabolic flexibility, and propensity for heart failure in mice'
+  container-title:  J Clin Invest
+  issued: 
+    year: 2010
+- id: ref28
+  title: 'CypD(-/-) hearts have altered levels of proteins involved in Krebs cycle, branch chain amino acid degradation and pyruvate metabolism'
+  container-title:  J Mol Cell Cardio
+  issued: 
+    year: 2013                                
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)  # Hide code by default. Can override chunk-by-chunk
+```
+
+
+# {.col-2 style="grid-row: span 4;"}
+<!-- Span the first column for four rows, that way we can capture the usage block, two rows of template examples, and refs/footer information -->
+
+## Abstract 
+
+We treated wild-type and mice lacking cyclophilin (CypD; _Ppif_ -/-) with cyclosporin A (CsA) to test the role and contribution of CypD to widely described CsA-induced renal toxicity and oxidative stress. Our results showed an increase in several known uremic toxins as well as oxidative stress markers prostaglandin F2&alpha; and 8-isoprostane in CsA-treated WT, but not in _Ppif_ -/- animals. Similarly, a decline in S-adenosylmethionine (SAM) and the resulting methylation potential indicative of DNA hypomethylation was observed only in CsA-treated WT mice. This confirms previous reports of protective effects of CypD deletion on the mouse kidney mediated through a stronger resistance of these animals to oxidative stress and DNA methylation damage. However, negative effects of CsA on the glycolysis and overall energy metabolism in _Ppif_ -/- mice also indicated that additional, CypD-independent pathways are involved in the toxic effects of CsA on the kidney. 
+
+
+## Background
+
+<div class="fullwidth"> Mitochondrial dysfunction and oxidative stress have been implicated in CsA-induced nephrotoxicity. Controversial reports have suggested that CypD deletion may or may not be protective in the protection of cells against oxidative stress-induced cell death. </div>
+
+### Cyclophilin D
+CypD (encoded by the _Ppif_ gene) is an essential structural component of the mitochondrial permeability transition pore (MPTP) and is involved in MPTP opening and subsequent regulation of cell death.[@ref1;@ref2] Despite years of research, the mechanism of CsA nephrotoxicity remains poorly understood, with several potential mechanisms identified: oxidative stress,[@ref3;@ref4] apoptosis,[@ref5] metabolic changes [@ref6;@ref7;@ref8;@ref9] and an increase of vascular resistance resulting in decreased renal blood flow.[@ref10;@ref11]
+
+### Cyclosporine
+CSA blocks the phosphatase activity of calcineurin after binding to its cellular co-effectors, the cyclophilins. [@ref12;@ref13] CsA is responsible for a significant improvement of short-term survival of transplant organs. [@ref14] However, long-term graft survival in renal transplant recipients has only seen a marginal improvement. [@ref15;@ref16] As of today, approximately 50% of renal allograft transplant patients still lose their transplant after 12 years, often due to immunosuppressant-induced nephrotoxicity. 
+
+### 
+<div class="fullwidth">CsA has been shown to protect against ischemia/reperfusion (I/R) organ injury, [@ref17;@ref18;@ref19;@ref20;@ref21] an observation that most likely arises from CsA’s ability to inhibit CypD. Mice that lack CypD have enhanced capacity to retain mitochondrial calcium, show delayed opening of the MPTP when calcium overload is present, and have smaller infarctions and less damage after prolonged I/R.[@ref22;@ref23;@ref24;@ref1;@ref25] However, _Ppif_ -/- mice are more susceptible to heart failure initiated by different stimuli, such as exercise-induced hypertrophy. [@ref26;@ref27] Mechanistically, CypD ablation is associated with elevated levels of mitochondrial matrix Ca<sup>2+</sup> that in turn leads to increased glucose oxidation relative to fatty acids. This metabolic switch limits the ability of organs, including kidney, to adapt during stress,[@ref26;@ref27;@ref28] and is similar to the effects we have observed after CsA treatment.[@ref6;@ref8;@ref9]</div>
+
+## Hypothesis 
+
+<div class="fullwidth">As one of the major potential molecular targets of CsA nephrotoxicity is missing, we hypothesized that mice with CypD deficiency will show a better outcome following CsA treatment with regard to changes in inflammatory response, less generation of oxidative stress, and a higher renal energy capacity as compared to normal mice treated with CsA.</div>
+
+## Methods
+
+#### Mouse experiments
+
+Eight-week old male and female mice (WT B6.129SF2 and _Ppif_ -/-) were given either skim milk or treated by oral gavage with CsA at (a) 25 mg/kg/day and (b) 50 mg/kg/day for 28 days. Animals were weighed weekly and blood glucose was monitored at the same time via tail vein prick blood collection. Urine and plasma collections occurred biweekly. At the end of treatment, the mice were sacrificed and blood, urine, and tissues were collected.
+
+#### Kidney histology
+
+Kidney tissue samples were fixed and embedded before staining in eosin solution. Stain intensity was optimized in ammonia water and sections were dehydrated in xylene. Images of the kidney sections were captured and 25 high-powered fields were examined in the tubulo-interstitium of the cortex and outer medulla of each section. The kidneys were examined for inflammation, epithelial necrosis, loss of brush border, and tubular dilatation.
+
+#### Analyte quantification
+
+Oxidative stress markers, creatinine, CsA, and high-energy phosphate metabolite concentrations were determined in extracted blood, plasma, urine, and snap-frozen tissue samples with LC-MS/MS. Corresponding deuterated internal standards were used for quantification.
+
+
+#### Metabolomic analysis
+
+Tissue samples were homogenized and subjected to a modified semi-quantitative targeted metabolomics. Positive identification of the metabolites of interest was performed through injection of pure compound standards. Some proteins were further analyzed by Western blot.
+
+
+# {.col-2}
+
+## Physiological and Histological Changes
+ 
+Neither phenotype nor treatment with CsA impacted animal weight gain or blood glucose levels. Inflammation was not observed in the glomerular or tubulointerstitial compartments of either strain of mice. Vascular congestion was seen in the glomeruli of _Ppif_ -/- mice. 
+
+#{.col-4}
+
+## Creatinine & CsA
+
+No changes in CsA blood concentration were observed between the mice  and plasma creatinine levels increased in all CsA-treated animals, but reached significance only in WT animals treated with 50 mg/kg/day CsA.
+
+
+## Uremic Toxins
+
+<div class="fullwidth">![](posterfig.png){style="width:100%;"}
+Hyperuricemia increases risk of hypertension, diabetes, and metabolic syndrome in renal transplant patients. High uric acid concentrations and low xanthine levels suggest increased conversion of xanthine to uric acid. 5-HIAA accumulates in uremic patients and induces endothelial inflammation and oxidative stress leading to increased cardiovascular risk in kidney disease.
+</div>
+
+
+#{.col-4}
+
+
+## Oxidative Stress 
+
+<div class="fullwidth"> ![](oxstress.png){style="width:100%;"}
+
+Plasma levels of oxidative stress markers PF2&alpha; and 8-isoprostane increased in WT male and female mice, but not in _Ppif_ -/- male mice.</div>
+
+
+## DNA Methylation
+
+<div class="fullwidth"> ![](meth.png){style="width:100%;"}
+
+Reduced SAM leads to reduced cellular methylation capacity and DNA hypomethylation in _Ppif_ -/- animals.</div>
+
+
+#{.col-2}
+
+## Energy Metabolism
+![](posterfig2.png){style="width:100%;"}
+Following CsA treatment, _Ppif_ -/- animals showed significantly lower kidney lactate concentrations, unchanged Krebs cycle activity, and significant decreases in energy production following CsA treatment. _Ppif_ -/- animals shift from &beta;-fatty acid oxidation towards glucose metabolism, which is exhibited by lower concentrations of acetyl-CoA and acetyl-CoA-transporting acetylcarnitine as compared to their WT counterparts.
+
+
+#{.col-4}
+
+## Metabolomics
+
+<div class="fullwidth"> ![](metab.png){style="width:100%;"}
+
+PLSDA revealed separation of the CsA-treated males and females. Metabolites that were significantly different across CsA-treated animals were projected and used for sample clustering. </div>
+
+
+#{.col-4}
+
+## Gender Differences
+
+<div class="fullwidth"> ![](gend.png){style="width:100%;"}
+Several metabolites varied in CsA-treated females as compared to males (independent of the mouse strain). Our results suggest that female mice are more sensitive to nephrotoxic effects of CsA when compared to their respective male counterparts, despite their estrogen-mediated protected status when untreated.
+</div>
+
+# {.col-1 .theme-minimalist} 
+
+## References {style="--header-color:Black; --other-color-for-h2-gradient:Gray;"}
+<div id="refs" class="references"></div>
