@@ -1,0 +1,75 @@
+# Pharmacy Robots {-#pharmacy}
+
+*Devices designed to improve prescription adherence in elderly and otherwise noncompliant patients.*
+
+
+## Home Robots (2008) {-#homerobots}
+
+This paper outlines a robot designed to provide in-home elder care. Glance through it because it discuss some important usability considerations.
+
+
+**"Home Robots and Ambient Facial Interfaces: Towards Building a Novel Telehealth Platform for Drug Compliance." Takacs *et al. TTeC.* 2008.** [[.pdf]](https://drive.google.com/file/d/1ODxCwAfeiL3RxEfxfljgkc2xQsJQmumB/view?usp=sharing)
+
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+myimages<-list.files("images/51/", pattern = ".png", full.names = TRUE)
+knitr::include_graphics(myimages)
+```
+
+***Big Idea:*** As you can see by the creepy baby face, this type of device (although unsightly) might be useful for patients with dementia since they have difficulty recognizing unfamiliar objects and text (validated by another creepy animated-face-based thesis work: [[.pdf]](https://drive.google.com/file/d/1db4KOWRtTWPwVizegHRBI_DLDn0E34CT/view?usp=sharing)). You might also consider incorporating their idea to activate the device with wearable sensors on the user so the product doesn't rely on an elderly person's ability to keep track of, for example, a swipe card. 
+
+
+
+## Intelligent Reminding (2009) {-#reminding}
+
+Since noncompliance is a major cause of illness, treatment failure, and death in the United States, this study looks at what type of reminder is comparatively most effective. There were three reminder systems: baseline (no reminders), time-based (essentially, an alarm clock), and context-aware, which reminded users when they forgot to take their pill.
+
+**"A Study of Medication-Taking and Unobtrusive, Intelligent Reminding." Hayes * et al. Telemedicine and e-Health.* 2009.** [[.pdf]](https://drive.google.com/file/d/1Tpvpvu7FRtXNQMG2iU3saE2jklMWmBUa/view?usp=sharing)
+
+
+```{r, echo=FALSE,out.width="80%",fig.align='center'}
+myimages<-list.files("images/52/", pattern = ".png", full.names = TRUE)
+knitr::include_graphics(myimages)
+```
+
+***Big Idea:*** Context-based reminding was far more effective than time-based in terms of patient compliance, which might be an important consideration for your product. Do you want your users to trigger the device manually, do you want it to automatically dispense their prescription, or do you want some combination of the two? Which do you think is most effective?
+
+
+## Administration Devices (2016) {-#administration}
+
+Other articles came out about the feasability of drug administration devices for the elderly before this one (example: [[.pdf]](https://drive.google.com/file/d/1rPhFMlreWMk-_6EfBfBl1YfYbH3_Wv3p/view?usp=sharing)), but none are as comprehensive.
+
+**"Developing Drug Administration Devices for Geriatric Use." Sam. *American Association of Pharmaceutical Scientists.* 2016.** [[.pdf]](https://drive.google.com/file/d/1rLqhPzvx8E6WGFNb00X_zkoaEUjOd5RC/view?usp=sharing)
+
+
+```{r, echo=FALSE,out.width="80%",fig.align='center'}
+myimages<-list.files("images/53/", pattern = ".png", full.names = TRUE)
+knitr::include_graphics(myimages)
+```
+
+***Big Idea:*** Think through this workflow with respect to your product design. Is it respectful of an elderly person's ability to perceive and interact with it?
+
+
+## Situated Agents (2016) {-#situatedagents}
+
+This article comes from a series of publications (older articles: [[.pdf]](https://drive.google.com/file/d/1TYdULpbNxyxLz5kMroMN_XlswYkyScIk/view?usp=sharing), [[.pdf]](https://drive.google.com/file/d/1L9eg0Xc8GcP6wQAov7N15ucBMzSbG7xO/view?usp=sharing)) on the subject of including stationary assistive technology devices ('situated agents') for improving both access and compliance to precription regimens in the elderly.
+
+**"Situated Agents and Humans in Social Interaction for Elderly Healthcare."* Sebastia *et al. J Med Syst.* 2016.** [[.pdf]](https://drive.google.com/file/d/1FsZW1fKEhvbvnq1ReWHaydYrTH_skKhy/view?usp=sharing)
+
+
+```{r, echo=FALSE,out.width="80%",fig.align='center'}
+myimages<-list.files("images/54/", pattern = ".png", full.names = TRUE)
+knitr::include_graphics(myimages)
+```
+
+***Big Idea:*** There's a whole ecosystem involved in the delivery and monitoring of these precriptions. Keep each player in the flowchart above in mind as you develop your technology!
+
+
+## Summary Recommendations {-#summarypharm}
+
+Elderly and demented patients might not be able to recognize most text or symbol-based imagery, and simply providing their pills on a timer is likely not the best way to promote adherence. Your users need to be able to engage with this device meaningfully (they need to *want* to use it), and there are more users than just the person taking the pills: don't forget about the caregivers, clinicians, and pharmacists that are involved in the patient's care! For inspiration, you might also take a look at some examples of futuristic pill-delivery systems online ([1](https://www.behance.net/gallery/766728/Braunprize-2009-3Medis), [2](http://www.tuvie.com/easy-pill-medical-system-for-elderly-people/)) and a neat real-life company that turns prescriptions into to-do lists ([article](https://www.wired.com/2014/02/pillpack-uses-design-thinking-become-pharmacy-future/), [company website](https://www.pillpack.com/)).
+
+
+
+
+

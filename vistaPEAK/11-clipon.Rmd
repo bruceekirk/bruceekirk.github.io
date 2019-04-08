@@ -1,0 +1,11 @@
+# Clip-On Lights {-#clipon}
+
+*A lighting system that attaches to the user's glasses for optimal illumination in the visual field, particularly in relatively dangerous industrial jobs like automotive repair.*
+
+## All Papers {-#allpapers}
+
+This page will be replaced by tomorrow with individual synopses and a summary recommendation. For now, the academic literature I compiled that is relevant to your project is available [here](https://drive.google.com/drive/folders/1mnPqmmsNVNTd3m-Eypvys5ZICy-5pvJx?usp=sharing).
+
+## Additional Resources {-#extra}
+
+[Amazon Clip-On Glasses Lights](https://smile.amazon.com/clip-glasses-light/s?k=clip+on+glasses+light)

@@ -1,0 +1,7 @@
+# Reaction Time Enhancer {-#reactiontime}
+
+*A system to improve user visual acuity and reaction time with coordination and reflex-based training and progress monitoring.*
+
+## All Papers {-#allpapers}
+
+This page will be replaced by tomorrow with individual synopses and a summary recommendation. For now, the academic literature I compiled that is relevant to your project is available [here](https://drive.google.com/drive/folders/1AAMU4hy0ZZvOtYDzRKzOkmxHT6xHcu_9?usp=sharing).
