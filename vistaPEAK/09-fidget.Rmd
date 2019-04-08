@@ -1,7 +1,0 @@
-# Fidget Quilt {-#fidget}
-
-*A therapeutic textile for sensory and tactile stimulation in populations with mood disorders.*
-
-## All Papers {-#allpapers}
-
-This page will be replaced by tomorrow with individual synopses and a summary recommendation. For now, the academic literature I compiled that is relevant to your project is available [here](https://drive.google.com/drive/folders/13vLs_IaojBt_YoaKqWEpekGtbz7JjbPm?usp=sharing).
